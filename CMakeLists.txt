@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.29)
+project(Programming_C_9 C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(task1 "Test_1_Preperation/task1.c")
+add_executable(task2 "Test_1_Preperation/task2.c")
+add_executable(task3 "Test_1_Preperation/task3.c")
+add_executable(task4 "Test_1_Preperation/task4.c")
+add_executable(task5 "Test_1_Preperation/task5.c")
+add_executable(task6 "Test_1_Preperation/task6.c")
+add_executable(task7 "Test_1_Preperation/task7.c")
+add_executable(1-eachcharonnewline 1_IDE_Debugging/1-eachcharonnewline.c)
+add_executable(2-printoddnumbersfrom2darr 1_IDE_Debugging/2-printoddnumbersfrom2darr.c)
+add_executable(3-sortedevenindexesproduct 1_IDE_Debugging/3-sortedevenindexesproduct.c)
+add_executable(4-binsearchnames 1_IDE_Debugging/4-binsearchnames.c)
+add_executable(5-remdup 1_IDE_Debugging/5-remdup.c)
