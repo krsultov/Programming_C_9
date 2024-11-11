@@ -24,3 +24,7 @@ add_executable(6-sort_macro 4_MACROS/6-sort_macro.c)
 add_executable(1-debug_macro 5_Conditional_Compilation/1-debug_macro.c)
 add_executable(2-powers_of_2_auto_arr 5_Conditional_Compilation/2-powers_of_2_auto_arr.c)
 add_executable(3-os_based_sort 5_Conditional_Compilation/3-os_based_sort.c)
+add_executable(4-school 5_Conditional_Compilation/4-school.c
+        5_Conditional_Compilation/person.h
+        5_Conditional_Compilation/schoolclass.h
+        5_Conditional_Compilation/schoolroom.h)
