@@ -1,0 +1,3 @@
+gcc -c 5-maths_lib.c -o 5-maths_lib.o
+ar rcs libmaths_lib.a 5-maths_lib.o
+gcc 5-main.c -lmaths_lib -L./ -o 5-main
