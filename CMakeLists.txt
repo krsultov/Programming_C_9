@@ -29,4 +29,4 @@ add_executable(4-school 5_Conditional_Compilation/4-school.c
         5_Conditional_Compilation/schoolclass.h
         5_Conditional_Compilation/schoolroom.h)
 add_executable(4-forth_pow.c 6_Compilation/4-fourth_pow.c)
-add_executable(1-type_info 7_Representing_data_in_memory/1-type_info.c)
+add_executable(1-type_info 8_Representing_data_in_memory/1-type_info.c)
