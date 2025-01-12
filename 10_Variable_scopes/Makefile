@@ -1,9 +1,9 @@
-all: processes.c processes.h taskmanager.c build
+all: processes.o processes.h taskmanager.c build
 
-processes.c: processes.h build
+processes.o: processes.h build
 	gcc -c processes.c -o build/processes.o
 
-taskmanager.c: processes.c build
+taskmanager.c: processes.o build
 	gcc taskmanager.c build/processes.o -o build/taskmanager.out
 
 build:
