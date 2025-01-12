@@ -2,13 +2,15 @@
 #define PROCESSES_H
 
 struct Process {
-  int id;
+  unsigned int id;
   char name[30];
 };
 
 extern struct Process processes[5];
 extern int process_count;
 
-static int next_process_id();
+unsigned int next_process_id();
+
+unsigned int create_new_process(char name[30]);
 
 #endif
