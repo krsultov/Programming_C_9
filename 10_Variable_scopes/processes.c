@@ -31,8 +31,20 @@ unsigned int create_new_process(char name[30]) {
     return new_process.id;
 }
 
-int main(void) {
+unsigned int stop_process(unsigned int id) {
+    if (id == 0) return 0;
 
-    create_new_process("test");
+    for (int i = 0; i < process_count; i++) {
+        if (processes[i].id == id) {
+
+            for (int j = i; j < process_count - 1; j++) {
+                processes[j] = processes[j + 1];
+            }
+
+            process_count--;
+            return id;
+        }
+    }
+
     return 0;
 }

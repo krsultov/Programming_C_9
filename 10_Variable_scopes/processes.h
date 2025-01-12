@@ -10,7 +10,7 @@ extern struct Process processes[5];
 extern int process_count;
 
 unsigned int next_process_id();
-
+unsigned int stop_process(unsigned int id);
 unsigned int create_new_process(char name[30]);
 
 #endif
