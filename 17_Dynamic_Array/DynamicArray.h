@@ -1,7 +1,7 @@
 #ifndef DYNAMIC_ARRAY_H
 #define DYNAMIC_ARRAY_H
 
-typedef int DynArrType;
+typedef long long DynArrType;
 typedef unsigned int uint;
 
 typedef struct {
@@ -24,7 +24,9 @@ DynArrType popFront(DynamicArray *dynArr);
 
 DynArrType pop(DynamicArray *dynArr, uint index);
 
-DynArrType get(DynamicArray *dynArr);
+DynArrType get(DynamicArray * dynArr, uint index);
+
+DynArrType searchIndex(DynamicArray *dynArr, DynArrType value);
 
 void set(DynamicArray *dynArr, uint index, DynArrType value);
 
